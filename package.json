@@ -1,0 +1,20 @@
+{
+  "name": "webrtc-signal-client",
+  "version": "1.0.1",
+  "description": "A simple client for webrtc-signalling-middleware, browser only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs index.js > index.min.js"
+  },
+  "keywords": [
+    "webrtc",
+    "simple-peer",
+    "webrtc-signalling-middleware"
+  ],
+  "author": "Bluebie",
+  "license": "Unlicense",
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  }
+}
